@@ -1,0 +1,48 @@
+.footer-wrapper{
+  margin: 20px 0px;
+  background: #002649;
+  padding: 40px 20px;
+  // border-top-left-radius: 10px;
+  // border-top-right-radius: 10px;
+  border-radius: 10px;
+
+  .brand{
+    a{
+      font-size: 28px;
+      color: white;
+    }
+  }
+  .widget{
+    .widget-title{
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+      margin-bottom: 20px;
+    }
+    .footer-menu{
+      li{
+        margin-bottom: 5px;
+        transition: .4s;
+        a{
+          color: rgb(211, 211, 211);
+          font-size: 14px;
+          &:hover{
+            padding-left: 5px;
+            color: var(--secondary-color);
+          }
+        }
+        color: rgb(211, 211, 211);
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:425px) {
+  
+  .widget{
+    .widget-title{
+      margin: 20px 0px;
+    }
+  }
+}
