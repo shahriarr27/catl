@@ -110,7 +110,6 @@
     padding: 15px 10px;
     border-top: 1px solid rgb(221, 221, 221);
     transition: .4s;
-    .income-details{
       .group-info{
         h4{
           font-size: 13px;
@@ -127,7 +126,6 @@
           font-weight: 500;
         }
       }
-    }
     .item-name{
       h2{
         font-size: 16px;
@@ -141,7 +139,7 @@
       }
     }
     &:hover{
-      background: var(--body-color);
+      background: #f4fcff;
     }
   }
 }
@@ -184,6 +182,7 @@
     width: 100%;
     a{
       display: block;
+      border-radius: 3px;
     }
   }
   .item-name{
