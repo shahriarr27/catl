@@ -76,11 +76,38 @@
 
 
 @media screen and (max-width:425px) {
+  .wealth-popular-items .item-list {
+    .section-title{
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  }
   .wealth-popular-items .single-item-list{
     padding: 15px 0px;
+    .group-info{
+      padding: 10px;
+      background:rgba(218, 218, 218, 0.37);
+      height: 100%;
+      border-radius: 5px;
+      h4{
+        font-size: 12px;
+      }
+      h3{
+        color: rgb(0, 153, 0);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      p{
+        font-size: 14px;
+        margin-bottom: 0;
+        line-height: 20px;
+      }
+    }
   }
-  .group-info{
-    margin-bottom: 10px;
+  .income-details{
+    height: 100%;
   }
   .wealth-popular-items .single-item-list .btn-wrapper{
     text-align: left;
@@ -97,5 +124,8 @@
   
   .progress{
     margin: 10px 0px 20px;
+  }
+  .item-list .col-4{
+    padding: 0px 5px;
   }
 }

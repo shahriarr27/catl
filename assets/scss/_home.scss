@@ -188,4 +188,122 @@
   .item-name{
     margin: 15px 0px;
   }
+  .menu-box{
+    .menu-box-wrapper{
+      padding: 20px;
+      .col-3{
+        padding: 0px 5px;
+      }
+      .media{
+        border: 1px solid rgba(199, 199, 199, 0.37);
+        border-radius: 10px;
+        .media-body{
+          padding: 10px;
+          img{
+            width: 40px;
+            height: 40px;
+          }
+          .small{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .featured-items{
+    .featured-item-wrapper{
+      .section-title{
+        font-size: 18px;
+      }
+    }
+    .single-item{
+      padding: 0px 0px;
+      margin-bottom: 20px;
+      .item-left{
+        display: flex;
+        gap: 5px;
+        .group-info{
+          padding: 10px;
+          h4{
+            font-size: 11px;
+          }
+          h3{
+            color: rgb(0, 153, 0);
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+          }
+          p{
+            font-size: 14px;
+            margin-bottom: 0;
+            line-height: 20px;
+          }
+        }
+      }
+      .item-right{
+        height: 100%;
+        position: relative;
+        h2{
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 14px;
+          line-height: 20px;
+        }
+        a{
+          position: relative;
+          width: 100%;
+          padding: 5px;
+        }
+      }
+    }
+  }
+  .popular-items{
+    .item-list{
+      .section-title{
+        font-size: 18px;
+      }
+    }
+    .single-item-list{
+      padding: 15px 0px;
+      .row{
+        align-items: center;
+      }
+        .group-info{
+          h4{
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 5px;
+          }
+          h3{
+            color: rgb(0, 153, 0);
+            font-weight: 600;
+            font-size: 14px;
+          }
+          p{
+            margin-bottom: 0;
+            font-weight: 500;
+          }
+        }
+      .item-name{
+        h2{
+          font-size: 15px;
+          font-weight: 600;
+          line-height: 24px;
+        }
+      }
+      .btn-wrapper{
+        text-align: right;
+        .btn{
+          font-size: 14px;
+        }
+      }
+      &:hover{
+        background: #f4fcff;
+      }
+    }
+  }
 }
